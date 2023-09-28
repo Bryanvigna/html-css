@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando imagem, audio e video HTML5</title>
+
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tentar abrir em varios dispositivos em varios dispositivos ou mexer no tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="img/foto-dela-p.png">
+        <source media="(max-width:1050px )" srcset="img/foto-dela-m.png" type="image/png">
+        <img src="img/foto-dela-g.png" alt="imagem flexivel"><br>
+    </picture>
+    <h1>colocando video em localhost HTML5</h1>
+    <p>esta hospedado em localhost memo em...</p>
+    <video width="560px" poster="img/foto-dela-g.png" controls autoplay loop>
+        <source src="midiavideo/Teste1.mp4" type="video/mp4">
+        <source src="midiavideo/Teste.webm" type="video/webm">
+    </video>
+
+    <h1>colocando video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5yW6uyc-6jc?si=KhHTU-R2s5jg7jhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>reproduzindo audio</h1>
+    <p>aprendendo a colocar audio HTML5</p>
+    <!--formatos compativeis MP3 WAV OGG-->
+    <audio preload="metadata" controls autoplay loop >
+        <source src="midia/teste.mp3" type="audio/mpeg">
+        <source src="midia/teste.ogg" type="audio/ogg">
+        <source src="midia/teste.wav" type="audio/wav">
+        <p>infelizmente não há como reproduzir seu audio. <a href="midia/teste.mp3">Clique aqui</a> para baixa-lo</p>
+    </audio>
+
+</body>
+</html>

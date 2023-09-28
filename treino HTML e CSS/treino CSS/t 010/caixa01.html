@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando box</title>
+    <style>
+    h1{/*box level*/
+        background-color: rgb(7, 139, 255);
+        height: 300px;
+        width: 300px;
+
+        /*borda simplificada*/
+        border: 2px solid lightgreen;
+
+        /*padding simplificado*/
+        padding: 10px;
+
+
+
+        /*margin simplificado*/
+        margin: 10px auto 10px auto;
+  
+        
+        /*outline simplficado*/
+        outline: 5px dashed;
+        
+    }
+    a{/*inline level*/
+        border-width: 5px;
+        border-style: solid;
+        border-color: red;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>tipo box level(h1)</h1>
+    <p>paragrafos são box level também, mas <a href="#"> os links são caixas inline level</a> oia como pega</p>
+    
+</body>
+</html>
