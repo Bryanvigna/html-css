@@ -6,19 +6,35 @@
     <title>tabelas</title>
     <style>
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif; 
         }
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td,th{
             border: 1px solid black;
             padding: 5px;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+           padding:5px ;
+           background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+            font-weight: bold;
+        }
+       
         thead, tfoot{
             background-color: gray;
             color: white;
+        } 
+        thead{
+            position: sticky;
+            top: -1px;
         }
         .num{
             text-align: right;
@@ -31,6 +47,7 @@
         <!--
             anatomia para tabelas grandes
             TABLE
+                CAPTION
                 THEAD
                     TR,TD,TH
                 TBODY
@@ -39,11 +56,12 @@
                     TR,TD,TH
         -->
         
-     <table>
+        <table>
+        <caption>população das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="row">Estado</th>
+                <th scope="row" style="width:50px">População</th>
             </tr>
         </thead>
         <tbody>
@@ -145,15 +163,16 @@
             </tr>
             <tr>
                 <td>Roraima</td>
-                <td class="num">636 303</td>
+                    <td class="num">636 303</td>
         </tbody>
         <tfoot>
-            <tr>
-                <th>total de habitantes</th>
-                <td class="num"><strong>202.231.455</strong></td>
-            </tr>
+                <tr>
+                    <th>total de habitantes</th>
+                    <td class="num"><strong>202.231.455</strong></td>
+                </tr>
         </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi soluta exercitationem corporis et sapiente neque? Numquam aspernatur blanditiis ducimus asperiores, et quas? Corporis pariatur aperiam cupiditate, exercitationem voluptatibus repudiandae fuga. Totam neque officiis maiores iure amet enim molestiae tempora nemo sit quisquam fugiat quia, magnam velit perferendis aliquid officia sapiente quam necessitatibus suscipit eaque ratione provident. Eaque adipisci quae et dignissimos nulla soluta sunt, nostrum veniam eum dolorum a id odio enim aliquid perspiciatis nihil nam illum est! Quis porro delectus atque dolores soluta suscipit, iusto optio repellendus provident! Molestias, voluptates ipsa id odit expedita quibusdam quasi molestiae debitis sapiente impedit soluta velit quis quod eos atque porro rem quo fugit consequatur? Quibusdam ducimus ipsum, omnis illo dolores modi, debitis laboriosam non dolor rem vel, eligendi sint aspernatur optio laudantium ad saepe explicabo. Odit cumque placeat ipsum doloremque? Neque voluptate sint tempore commodi delectus ratione totam beatae veniam esse culpa error impedit dolorum necessitatibus asperiores quibusdam numquam, sequi tenetur unde cumque. Placeat, fugiat enim. Numquam temporibus doloremque, quasi officiis dignissimos vero commodi atque, quisquam ab beatae libero expedita vel exercitationem eius mollitia minima inventore aspernatur? Eos voluptas itaque nulla commodi dolorum mollitia dolorem officia, dolore, nemo consequuntur error. Architecto aut cumque veniam dolorum eligendi, doloremque possimus beatae quidem modi voluptatum nostrum enim nobis debitis neque! Provident beatae placeat reiciendis cum, ducimus alias explicabo molestias totam perspiciatis perferendis eaque dicta facere molestiae, eveniet iusto omnis. Iste sequi unde perspiciatis laboriosam consectetur officia voluptate, sed illo sapiente, dolore eveniet nesciunt, ducimus cumque ab fugiat maiores maxime! Facilis accusamus nam cumque omnis recusandae minus dolores quis deleniti eaque, facere nostrum sint ipsam! Voluptatum debitis voluptates incidunt delectus aperiam est id atque deserunt earum vel aspernatur asperiores optio, quas obcaecati minima ex magnam consequuntur iste. Similique, earum culpa molestiae omnis error commodi obcaecati eum optio eligendi illo, placeat ut laboriosam! Est odit, fuga doloribus consequuntur laboriosam tenetur delectus adipisci unde nisi quod voluptatum dignissimos voluptates, neque eum earum ipsa fugit ut itaque beatae sed perspiciatis nam asperiores. Tempore beatae sapiente vel! In odio atque neque asperiores consectetur, dolorem voluptatum qui labore officia incidunt, obcaecati inventore accusamus reiciendis necessitatibus cupiditate tempora voluptate debitis ullam. Corrupti suscipit, maxime rerum quos eaque, delectus sapiente modi eum excepturi necessitatibus maiores cupiditate perferendis voluptates neque odit dolores nisi quasi nihil ratione commodi molestias. Tempora et nobis asperiores aliquid impedit perspiciatis voluptates laborum libero magni distinctio nam excepturi ratione harum, vel voluptatum, quo doloribus cum dolore officiis fugit corporis. Optio iure quisquam sequi molestias sit dolores laborum amet maiores vero nulla, est excepturi architecto repellat veritatis nobis magni corporis adipisci. Cumque quod possimus, inventore excepturi nemo non labore iure est delectus ipsam fuga quas architecto optio laboriosam quam laborum consequuntur natus rem praesentium eius vero hic incidunt libero veritatis. Molestias vitae odio sunt! Nesciunt nam et totam earum voluptatum? Illo, explicabo voluptatibus provident recusandae inventore suscipit omnis doloremque? Ab ullam assumenda ipsa nesciunt nam? Ab, facilis obcaecati commodi vitae fugit repellat velit numquam, rem dignissimos totam quidem, cupiditate accusantium molestiae.</p>
     </div>
-     </table>
 </body>
 </html>
