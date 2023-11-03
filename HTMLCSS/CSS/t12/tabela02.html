@@ -39,9 +39,6 @@
         .num{
             text-align: right;
         }
-        #table{
-            overflow-x: auto;
-        }
     </style>
 </head>
 <body>
@@ -59,124 +56,122 @@
                     TR,TD,TH
         -->
         
-        <div id="table">
-            <table>
-            <caption>população das unidades federativas</caption>
-            <thead>
+        <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="row">Estado</th>
+                <th scope="row" style="width:50px">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td class="num">44 420 459</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td class="num">14 136 417</td>
+            </tr>
+            <tr>
+                <td>paraná</td>
+                <td class="num">11 443 208</td>
+            </tr>
+            <tr>
+                <td>Rio grande do Sul</td>
+                <td class="num">10 880 506</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 116 132	</td>
+            </tr>
+            <tr>
+                <td>Santa catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3 833 486</td>
+            </tr>
+            <tr>
+                <td>Mato grosso</td>
+                <td class="num">3 658 813</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 302 406</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">3 269 200</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3 127 511</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2 817 068</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2 756 700</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2 209 558</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1 581 016</td>
+            </tr>
+            <tr>
+                <td>Tocantis</td>
+                <td class="num">1 511 459</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">830 026</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">733 508</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                    <td class="num">636 303</td>
+        </tbody>
+        <tfoot>
                 <tr>
-                    <th scope="row">Estado</th>
-                    <th scope="row" style="width:50px">População</th>
+                    <th>total de habitantes</th>
+                    <td class="num"><strong>202.231.455</strong></td>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>são paulo</td>
-                    <td class="num">44 420 459</td>
-                </tr>
-                <tr>
-                    <td>Minas gerais</td>
-                    <td class="num">20 538 718</td>
-                </tr>
-                <tr>
-                    <td>Rio de Janeiro</td>
-                    <td class="num">16 054 524</td>
-                </tr>
-                <tr>
-                    <td>bahia</td>
-                    <td class="num">14 136 417</td>
-                </tr>
-                <tr>
-                    <td>paraná</td>
-                    <td class="num">11 443 208</td>
-                </tr>
-                <tr>
-                    <td>Rio grande do Sul</td>
-                    <td class="num">10 880 506</td>
-                </tr>
-                <tr>
-                    <td>Pernambuco</td>
-                    <td class="num">9 058 155</td>
-                </tr>
-                <tr>
-                    <td>Ceará</td>
-                    <td class="num">8 791 688</td>
-                </tr>
-                <tr>
-                    <td>Pará</td>
-                    <td class="num">8 116 132	</td>
-                </tr>
-                <tr>
-                    <td>Santa catarina</td>
-                    <td class="num">7 609 601</td>
-                </tr>
-                <tr>
-                    <td>Goiás</td>
-                    <td class="num">7 055 228</td>
-                </tr>
-                <tr>
-                    <td>Maranhão</td>
-                    <td class="num">6 775 152</td>
-                </tr>
-                <tr>
-                    <td>Espírito Santo</td>
-                    <td class="num">3 833 486</td>
-                </tr>
-                <tr>
-                    <td>Mato grosso</td>
-                    <td class="num">3 658 813</td>
-                </tr>
-                <tr>
-                    <td>Rio Grande do Norte</td>
-                    <td class="num">3 302 406</td>
-                </tr>
-                <tr>
-                    <td>Piauí</td>
-                    <td class="num">3 269 200</td>
-                </tr>
-                <tr>
-                    <td>Alagoas</td>
-                    <td class="num">3 127 511</td>
-                </tr>
-                <tr>
-                    <td>Distrito Federal</td>
-                    <td class="num">2 817 068</td>
-                </tr>
-                <tr>
-                    <td>Mato Grosso do Sul</td>
-                    <td class="num">2 756 700</td>
-                </tr>
-                <tr>
-                    <td>Sergipe</td>
-                    <td class="num">2 209 558</td>
-                </tr>
-                <tr>
-                    <td>Rondônia</td>
-                    <td class="num">1 581 016</td>
-                </tr>
-                <tr>
-                    <td>Tocantis</td>
-                    <td class="num">1 511 459</td>
-                </tr>
-                <tr>
-                    <td>Acre</td>
-                    <td class="num">830 026</td>
-                </tr>
-                <tr>
-                    <td>Amapá</td>
-                    <td class="num">733 508</td>
-                </tr>
-                <tr>
-                    <td>Roraima</td>
-                        <td class="num">636 303</td>
-            </tbody>
-            <tfoot>
-                    <tr>
-                        <th>total de habitantes</th>
-                        <td class="num"><strong>202.231.455</strong></td>
-                    </tr>
-            </tfoot>
-            </table>
-        </div>
+        </tfoot>
+        </table>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi soluta exercitationem corporis et sapiente neque? Numquam aspernatur blanditiis ducimus asperiores, et quas? Corporis pariatur aperiam cupiditate, exercitationem voluptatibus repudiandae fuga. Totam neque officiis maiores iure amet enim molestiae tempora nemo sit quisquam fugiat quia, magnam velit perferendis aliquid officia sapiente quam necessitatibus suscipit eaque ratione provident. Eaque adipisci quae et dignissimos nulla soluta sunt, nostrum veniam eum dolorum a id odio enim aliquid perspiciatis nihil nam illum est! Quis porro delectus atque dolores soluta suscipit, iusto optio repellendus provident! Molestias, voluptates ipsa id odit expedita quibusdam quasi molestiae debitis sapiente impedit soluta velit quis quod eos atque porro rem quo fugit consequatur? Quibusdam ducimus ipsum, omnis illo dolores modi, debitis laboriosam non dolor rem vel, eligendi sint aspernatur optio laudantium ad saepe explicabo. Odit cumque placeat ipsum doloremque? Neque voluptate sint tempore commodi delectus ratione totam beatae veniam esse culpa error impedit dolorum necessitatibus asperiores quibusdam numquam, sequi tenetur unde cumque. Placeat, fugiat enim. Numquam temporibus doloremque, quasi officiis dignissimos vero commodi atque, quisquam ab beatae libero expedita vel exercitationem eius mollitia minima inventore aspernatur? Eos voluptas itaque nulla commodi dolorum mollitia dolorem officia, dolore, nemo consequuntur error. Architecto aut cumque veniam dolorum eligendi, doloremque possimus beatae quidem modi voluptatum nostrum enim nobis debitis neque! Provident beatae placeat reiciendis cum, ducimus alias explicabo molestias totam perspiciatis perferendis eaque dicta facere molestiae, eveniet iusto omnis. Iste sequi unde perspiciatis laboriosam consectetur officia voluptate, sed illo sapiente, dolore eveniet nesciunt, ducimus cumque ab fugiat maiores maxime! Facilis accusamus nam cumque omnis recusandae minus dolores quis deleniti eaque, facere nostrum sint ipsam! Voluptatum debitis voluptates incidunt delectus aperiam est id atque deserunt earum vel aspernatur asperiores optio, quas obcaecati minima ex magnam consequuntur iste. Similique, earum culpa molestiae omnis error commodi obcaecati eum optio eligendi illo, placeat ut laboriosam! Est odit, fuga doloribus consequuntur laboriosam tenetur delectus adipisci unde nisi quod voluptatum dignissimos voluptates, neque eum earum ipsa fugit ut itaque beatae sed perspiciatis nam asperiores. Tempore beatae sapiente vel! In odio atque neque asperiores consectetur, dolorem voluptatum qui labore officia incidunt, obcaecati inventore accusamus reiciendis necessitatibus cupiditate tempora voluptate debitis ullam. Corrupti suscipit, maxime rerum quos eaque, delectus sapiente modi eum excepturi necessitatibus maiores cupiditate perferendis voluptates neque odit dolores nisi quasi nihil ratione commodi molestias. Tempora et nobis asperiores aliquid impedit perspiciatis voluptates laborum libero magni distinctio nam excepturi ratione harum, vel voluptatum, quo doloribus cum dolore officiis fugit corporis. Optio iure quisquam sequi molestias sit dolores laborum amet maiores vero nulla, est excepturi architecto repellat veritatis nobis magni corporis adipisci. Cumque quod possimus, inventore excepturi nemo non labore iure est delectus ipsam fuga quas architecto optio laboriosam quam laborum consequuntur natus rem praesentium eius vero hic incidunt libero veritatis. Molestias vitae odio sunt! Nesciunt nam et totam earum voluptatum? Illo, explicabo voluptatibus provident recusandae inventore suscipit omnis doloremque? Ab ullam assumenda ipsa nesciunt nam? Ab, facilis obcaecati commodi vitae fugit repellat velit numquam, rem dignissimos totam quidem, cupiditate accusantium molestiae.</p>
     </div>
 </body>
