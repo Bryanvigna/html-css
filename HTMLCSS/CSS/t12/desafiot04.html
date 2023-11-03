@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio tabela 1</title>
+    <style>
+        table{
+            width: 300px;
+        }
+        td{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            text-align: center;
+            font-size: 1.3em;
+        }
+        h2{
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 200px;
+            height: 35px;
+            border-radius: 10px;
+            transition: .4s;
+        }
+        h2:hover{
+            width: 210px;
+            height: 40px;
+            background-color: transparent;
+            color: black;
+            box-shadow:1px 1px 5px rgba(0, 0, 0, 0.178) ;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        desafio tabela 1
+    </h1>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            
+        </tr>
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <h2>easy, pai manja já</h2>
+</body>
+</html>
