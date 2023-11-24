@@ -58,7 +58,7 @@ telas grandes: acima de 1200px
     img#tv{display: none;}
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1200px) {
     body{
         background-image:url(../imagens/back-tv.jpg) ;
     }
