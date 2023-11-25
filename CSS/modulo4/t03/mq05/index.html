@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/MQ.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>testando media query</h1>
+        <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6174cd1a-f614-4c1e-9d75-4997060b6156/dcbs3if-f0eca3c3-39d4-4fd3-a926-41bb3149cc35.png/v1/fill/w_1500,h_500,q_80,strp/pyke_twitter_header_by_lynwulf_dcbs3if-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvNjE3NGNkMWEtZjYxNC00YzFlLTlkNzUtNDk5NzA2MGI2MTU2XC9kY2JzM2lmLWYwZWNhM2MzLTM5ZDQtNGZkMy1hOTI2LTQxYmIzMTQ5Y2MzNS5wbmciLCJ3aWR0aCI6Ijw9MTUwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sbUi_IdFBzf-s06nmrqLf0oRl_b1MuFY6SyY1g4Vfhs" target="_blank" id="pyke">pyke</a></li>
+            <li><a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/14f93389-f0c8-4f1c-a732-2a8efb4a8867/dayvdof-d8e818e8-7b9d-4bec-8432-957d074b8946.png/v1/fill/w_1024,h_605,q_80,strp/jhin_blood_moon_splash_art_by_niaseditions_dayvdof-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjA1IiwicGF0aCI6IlwvZlwvMTRmOTMzODktZjBjOC00ZjFjLWE3MzItMmE4ZWZiNGE4ODY3XC9kYXl2ZG9mLWQ4ZTgxOGU4LTdiOWQtNGJlYy04NDMyLTk1N2QwNzRiODk0Ni5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.y5xGbEjaVUFJlUovty8XEoBeYDeb3oMcUBU_354VozI" target="_blank" id="jhin">Jhin</a></li>
+            <li><a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/14f93389-f0c8-4f1c-a732-2a8efb4a8867/d9pu7o0-5cac3996-aec0-4e3c-bcc1-17451dc49b85.png/v1/fill/w_1024,h_605,q_80,strp/shaco_splash_art_by_niaseditions_d9pu7o0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjA1IiwicGF0aCI6IlwvZlwvMTRmOTMzODktZjBjOC00ZjFjLWE3MzItMmE4ZWZiNGE4ODY3XC9kOXB1N28wLTVjYWMzOTk2LWFlYzAtNGUzYy1iY2MxLTE3NDUxZGM0OWI4NS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hG9_C8EMegP3ctePcxJn-bMQAPvyYEogfmqRfr-JlrE" target="_blank" id="shaco">shaco</a></li>
+            <li><a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ef22477f-d803-44fa-9136-4b4d6b75ff53/d6eojel-54f78772-bfc0-49ed-8b5d-6b3f7c35fac4.jpg/v1/fill/w_1192,h_670,q_70,strp/spirit_guard_udyr_walpaper_by_patweiss_d6eojel-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2VmMjI0NzdmLWQ4MDMtNDRmYS05MTM2LTRiNGQ2Yjc1ZmY1M1wvZDZlb2plbC01NGY3ODc3Mi1iZmMwLTQ5ZWQtOGI1ZC02YjNmN2MzNWZhYzQuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.rL80FsYTQSRD7wdonrdTlVloGF_GtXfCtp15VN76K5A" target="_blank" id="udyr">udyr</a></li>
+            <li><a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60c24034-b5f2-4a41-b98f-efa272dd683f/d8ragpq-550176b2-eaf7-4ca0-a535-c243ed1455c7.png/v1/fill/w_850,h_315,q_80,strp/darius___league_of_legends_by_aliceemad_d8ragpq-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzE1IiwicGF0aCI6IlwvZlwvNjBjMjQwMzQtYjVmMi00YTQxLWI5OGYtZWZhMjcyZGQ2ODNmXC9kOHJhZ3BxLTU1MDE3NmIyLWVhZjctNGNhMC1hNTM1LWMyNDNlZDE0NTVjNy5wbmciLCJ3aWR0aCI6Ijw9ODUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.5E2-EyYAGySzRkcRY69Vbz6DL01b-PQgf0-o7gft4kQ" target="_blank" id="darius">darius</a></li>
+        </ul>
+    </menu> 
+    </header>
+    <main>
+        <article>
+            <h2>jornada do lol</h2>
+            <p>inicialmente foi bem dificil e engraçado, fazer muita besteira e errada tudo. Meus amigos sem paciência não ajudaram mas isso tornou tudo mais divertido.</p>
+
+            <p>após muitas partidas normais, tentanso campeões, estilos e builds de jogo diferentes eu me encontrei jogando de suporte, era mais facil e mais atrativo. Não precisava farmar e apenas focar em controle de visão engajar no inimigo para conseguir abates e fortalecer meu atirador e equipe. Meu campeão favorito para isso, na época, era o pyke!</p>
+
+            <p>Apos muitas partidas frustradas por não conseguir cumprir meus objetivos tomei a decisão de trocar de função, resolvi ser o atirador mas jogando varias partidas percebi q o problema era ter um parceiro na rota comigo, normalmente a pessoa mais atralhava do que me ajudava. Meu campeão favorito era o Jhin</p>
+
+            <p>Resolvir jogar na rota de meio, ser um midlaner.apos muitas partidas como midlaner percebi que não a função que eu tinha 100% do meu desempenho, desempenhava bem mas não a ponto de ser o diferencial. gostava muito de jogar de talon!</p>
+
+            <p>Logo após essa percepção virar caçador, depois de tomar muita porrada para aprender, vi que era bem mais facil do que achava, a dificuldade era ter os conceitos básicos estabelecidos para saber o que fazer. Eu desempenhei muito bem e meus campeões favoritos até hoje(25/11/2023) são o Shaco e o Udyr!</p>
+
+            <p>Jogando muito com esses campeões eu enjoei e resolvi jogar na topo, jogando como toplaner era o mesmo caso do mid mas eu me divertia mais. Meu campeão favorito era o Darius!</p>
+
+            <h2>ranqueado</h2>
+            <p>Minha historia na ranqueada é bem cura, eu comecei em 2019 como prata após muitos testes e diversão. Evolui e aprendi bastante sobre o jogo, Agr em 2023 estou no platina e vou continuar evoluindo!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+
+        }
+    </script>
+</body>
+</html>
