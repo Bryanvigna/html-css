@@ -52,7 +52,7 @@ menu #jhin:hover{
     color: rgb(255, 255, 255);
 }
 menu #shaco:hover{
-    background-color: #E02E42;
+    background-color: red;
     color: white;
 }
 menu #udyr:hover{
